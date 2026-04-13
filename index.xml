@@ -10,12 +10,18 @@
     <link>https://zy-tolearn.github.io/my-wiki-site/</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
     <description><![CDATA[ LLM-Wiki 基于 LLM 与 Obsidian 的个人知识库。LLM 负责簿记，人负责策展。 浏览 LLM-Wiki 模式 — Karpathy 提出的用 LLM 增量构建知识库的模式 Agent 意图方法论 — Agent 意图判断与连续执行的工程化方法论 核心概念 RAG — 检索增强生成 知识复利 — 知识库价值的复利增长 Agent 架构 — 知识积累 vs 任务执行 能力包 — 受控的工具/权限封装 Memex — 1945 年的个人知识库愿景 分析 LLM-Wiki 架构评估 搭建流程 人物 Andrej Karpathy Vannevar Bush . ]]></description>
-    <pubDate>Mon, 13 Apr 2026 08:31:10 GMT</pubDate>
+    <pubDate>Mon, 13 Apr 2026 08:43:31 GMT</pubDate>
   </item><item>
     <title>LLM-Wiki 搭建流程</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/llm-wiki%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/llm-wiki%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B</guid>
     <description><![CDATA[ LLM-Wiki 搭建流程 基于两篇文章搭建的完整流程记录，照着做可以从零复现。 参考资料： Karpathy 的 LLM-Wiki Gist Clippings/Karpathy 开源了 Agent + Obsidian 个人知识库（知乎解读） Clippings/换了N个笔记工具，最终我还是选择了 Obsidian（Obsidian 配置教程） 第一步：创建 Git 仓库 GitHub 上创建一个 private 仓库 用 GitHub Desktop 克隆到本地（如 D:\LLM-Wiki） 在根目录创建 .gitignore，排除 Obsidian 的工作区文件： .obsidian/... ]]></description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>博客发布流程（Quartz + GitHub Pages）</title>
+    <link>https://zy-tolearn.github.io/my-wiki-site/analyses/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B</link>
+    <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B</guid>
+    <description><![CDATA[ 博客发布流程 基于 Quartz 将 wiki 中的部分文章发布为静态博客，私有仓库存源码，公开仓库只暴露构建后的 HTML。 架构 LLM-Wiki（私有仓库） ├── wiki/ ← 内容源 ├── blog/ ← Quartz 引擎 │ ├── content/ ← Junction 链接到 wiki/ │ ├── quartz.config.ts │ └── public/ ← 构建产物（gitignore） └── .github/workflows/deploy-wiki.yml my-wiki-site（公开仓库） └── gh-pages 分支 ← 只有 HTML/CSS/JS... ]]></description>
     <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
