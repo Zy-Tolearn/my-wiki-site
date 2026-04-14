@@ -10,7 +10,13 @@
     <link>https://zy-tolearn.github.io/my-wiki-site/</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
     <description><![CDATA[ LLM-Wiki 基于 LLM 与 Obsidian 的个人知识库。LLM 负责簿记，人负责策展。 文章 Agent 意图判断与连续执行方法论 — 构建好用 Agent 的工程化八步流水线 流程 LLM-Wiki 搭建流程 — 从零搭建的完整步骤与踩坑记录 博客发布流程 — Quartz + GitHub Pages，私有仓库构建推送到公开仓库 . ]]></description>
-    <pubDate>Tue, 14 Apr 2026 03:09:01 GMT</pubDate>
+    <pubDate>Tue, 14 Apr 2026 03:18:13 GMT</pubDate>
+  </item><item>
+    <title>LLM-Wiki 搭建流程</title>
+    <link>https://zy-tolearn.github.io/my-wiki-site/analyses/llm-wiki%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B</link>
+    <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/llm-wiki%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B</guid>
+    <description><![CDATA[ LLM-Wiki 搭建流程 基于两篇文章搭建的完整流程记录，照着做可以从零复现。 参考资料： Karpathy 的 LLM-Wiki Gist Clippings/Karpathy 开源了 Agent + Obsidian 个人知识库（知乎解读） Clippings/换了N个笔记工具，最终我还是选择了 Obsidian（Obsidian 配置教程） 第一步：创建 Git 仓库 GitHub 上创建一个 private 仓库 用 GitHub Desktop 克隆到本地（如 D:\LLM-Wiki） 在根目录创建 .gitignore，排除 Obsidian 的工作区文件： .obsidian/... ]]></description>
+    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>LLM-Wiki 个人博客</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B</link>
