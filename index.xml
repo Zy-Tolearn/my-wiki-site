@@ -10,7 +10,25 @@
     <link>https://zy-tolearn.github.io/my-wiki-site/</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
     <description><![CDATA[ LLM-Wiki 基于 LLM 与 Obsidian 的个人知识库。LLM 负责簿记，人负责策展。 文章 Agent 意图判断与连续执行方法论 — 构建好用 Agent 的工程化八步流水线 流程 LLM-Wiki 搭建流程 — 从零搭建的完整步骤与踩坑记录 博客发布流程 — Quartz + GitHub Pages，私有仓库构建推送到公开仓库 Git 实战指南 — SSH 配置、日常提交推送、同步拉取与冲突解决全流程 . ]]></description>
-    <pubDate>Thu, 23 Apr 2026 06:14:45 GMT</pubDate>
+    <pubDate>Thu, 23 Apr 2026 09:14:20 GMT</pubDate>
+  </item><item>
+    <title>Git 实战指南</title>
+    <link>https://zy-tolearn.github.io/my-wiki-site/analyses/git-ssh%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97</link>
+    <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/git-ssh%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97</guid>
+    <description><![CDATA[ Git 实战指南 从 SSH 配置到日常同步、冲突解决，记录 Git 使用中的完整流程和每条命令的含义。 核心概念：公钥与私钥 SSH 密钥对是一组数学关联的密钥，用于身份验证： 私钥（id_ed25519）：存在本地 ~/.ssh/ 目录，绝不外泄。相当于钥匙。 公钥（id_ed25519.pub）：上传到 GitHub，任何人可见。相当于锁。 原理：只有你的私钥能匹配你的公钥。GitHub 用你上传的公钥验证身份，私钥永远不离开本地。 配置步骤 1. ]]></description>
+    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>个人助理 Agent 设计</title>
+    <link>https://zy-tolearn.github.io/my-wiki-site/analyses/%E4%B8%AA%E4%BA%BA%E5%8A%A9%E7%90%86Agent%E8%AE%BE%E8%AE%A1</link>
+    <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/%E4%B8%AA%E4%BA%BA%E5%8A%A9%E7%90%86Agent%E8%AE%BE%E8%AE%A1</guid>
+    <description><![CDATA[ 个人助理 Agent 设计 基于 个人方法论 和 AI与个人方法论的配合 的分析，设计一个真正匹配你认知模型的个人助理 Agent。 一、最佳实践 实践 1：口述即记录 原则依据：有记录即有能力 + 精力有限 你不应该花时间”写笔记”。最佳实践是： 随时口述想法、进展、感受，哪怕一句话 Agent 负责整理成结构化记录，归档到正确位置 你永远不需要想”这个该记在哪” 反模式：自己打开笔记软件，纠结格式和分类。这消耗的精力应该花在做事上。 实践 2：启动助推 原则依据：0.1 &gt; 0 + 粗糙地开始 + 最简单的方法是模仿 面对新任务时，不要自己从零开始。最佳实践是： 告诉 Agent 你... ]]></description>
+    <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>AI 与个人方法论的配合</title>
+    <link>https://zy-tolearn.github.io/my-wiki-site/analyses/AI%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%96%B9%E6%B3%95%E8%AE%BA%E7%9A%84%E9%85%8D%E5%90%88</link>
+    <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/AI%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%96%B9%E6%B3%95%E8%AE%BA%E7%9A%84%E9%85%8D%E5%90%88</guid>
+    <description><![CDATA[ AI 与个人方法论的配合 基于 个人方法论 的三层框架，逐层分析 AI 能弥补什么、不能替代什么、以及最佳配合方式。 一、认知层：AI 弥补的是硬件缺陷，不是替代大脑 你的方法论识别了三个大脑硬件限制。AI 恰好能对冲其中两个半： “只记得住最新的” → AI 是不会遗忘的外部记忆 这是 AI 最直接的价值。大脑的记忆衰减是生理事实，而 AI + 知识库的组合可以做到： 全量记忆：你说过的、记录过的，AI 都能检索到，不存在”忘了上个月看的那篇文章” 关联记忆：你说”没有联想的记忆无效”——AI 天然擅长在不同记录之间建立联想，这正是 LLM-Wiki 的双链在做的事 即时唤醒：你不需要”想起... ]]></description>
+    <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>个人方法论</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/concepts/%E4%B8%AA%E4%BA%BA%E6%96%B9%E6%B3%95%E8%AE%BA</link>
