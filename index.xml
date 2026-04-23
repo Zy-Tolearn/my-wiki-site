@@ -9,8 +9,8 @@
     <title>LLM-Wiki</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
-    <description><![CDATA[ LLM-Wiki 基于 LLM 与 Obsidian 的个人知识库。LLM 负责簿记，人负责策展。 文章 Agent 意图判断与连续执行方法论 — 构建好用 Agent 的工程化八步流水线 流程 LLM-Wiki 搭建流程 — 从零搭建的完整步骤与踩坑记录 博客发布流程 — Quartz + GitHub Pages，私有仓库构建推送到公开仓库 Git 实战指南 — SSH 配置、日常提交推送、同步拉取与冲突解决全流程 . ]]></description>
-    <pubDate>Thu, 23 Apr 2026 21:15:28 GMT</pubDate>
+    <description><![CDATA[ LLM-Wiki 个人知识库。用 Obsidian 写，用 LLM 维护，用 Quartz 发布。 知识库最大的敌人不是”没时间读”，而是”读了不整理”。交叉引用、更新索引、标注矛盾——这些簿记工作交给 LLM，人只管读和想。 方法论 个人方法论 — 大脑是节能、短视、单线程的，不对抗它，顺着它设计策略 AI 与个人方法论的配合 — AI 补记忆、补并行，但替不了判断和行动 个人助理 Agent 设计 — 口述即记录、启动助推、粗糙地开始 工程实践 Agent 意图判断与连续执行方法论 — 先用规则压缩任务空间，再让模型在受控局部做决策 搭建与工具 LLM-Wiki 搭建流程 — 从零搭建的完... ]]></description>
+    <pubDate>Thu, 23 Apr 2026 21:21:55 GMT</pubDate>
   </item><item>
     <title>Git 实战指南</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/git-ssh%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97</link>
