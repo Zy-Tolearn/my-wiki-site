@@ -6,6 +6,12 @@
       <description>最近的10条笔记 on Zyke</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>【指南】Codex 首次对话超时的 Clash 代理修复</title>
+    <link>https://zy-tolearn.github.io/my-wiki-site/analyses/codex-clash-proxy-timeout</link>
+    <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/codex-clash-proxy-timeout</guid>
+    <description><![CDATA[ Codex 首次对话超时的 Clash 代理修复 最近遇到一个很具体的问题：Codex 每次第一次对话都会访问超时，然后反复出现 reconnecting。 典型报错长这样： Stream error Reconnecting.. ]]></description>
+    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>【资料】Codex App 保姆级全攻略</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/sources/codex-app-guide</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/sources/codex-app-guide</guid>
@@ -22,7 +28,7 @@
     <link>https://zy-tolearn.github.io/my-wiki-site/</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
     <description><![CDATA[ LLM-Wiki 个人知识库。用 Obsidian 写，用 LLM 维护，用 Quartz 发布。 知识库最大的敌人不是”没时间读”，而是”读了不整理”。交叉引用、更新索引、标注矛盾——这些簿记工作交给 LLM，人只管读和想。 方法论 【方法论】个人方法论 — 大脑是节能、短视、单线程的，不对抗它，顺着它设计策略 【方法论】AI 与个人方法论的配合 — AI 补记忆、补并行，但替不了判断和行动 【方法论】个人助理 Agent 设计 — 口述即记录、启动助推、粗糙地开始 工程实践 【工程】Agent 意图判断与连续执行方法论 — 先用规则压缩任务空间，再让模型在受控局部做决策 搭建与工具 【指南... ]]></description>
-    <pubDate>Tue, 05 May 2026 22:28:22 GMT</pubDate>
+    <pubDate>Tue, 05 May 2026 22:29:34 GMT</pubDate>
   </item><item>
     <title>【指南】Git 实战指南</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/git-ssh%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97</link>
@@ -58,12 +64,6 @@
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B</guid>
     <description><![CDATA[ 博客发布流程 基于 Quartz 将 wiki 中的部分文章发布为静态博客，私有仓库存源码，公开仓库只暴露构建后的 HTML。 架构 LLM-Wiki（私有仓库） ├── wiki/ ← 内容源 ├── blog/ ← Quartz 引擎 │ ├── content/ ← Junction 链接到 wiki/ │ ├── quartz.config.ts │ └── public/ ← 构建产物（gitignore） └── .github/workflows/deploy-wiki.yml my-wiki-site（公开仓库） └── gh-pages 分支 ← 只有 HTML/CSS/JS... ]]></description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>【工程】Agent 意图判断与连续执行方法论</title>
-    <link>https://zy-tolearn.github.io/my-wiki-site/sources/agent-intent-methodology</link>
-    <guid>https://zy-tolearn.github.io/my-wiki-site/sources/agent-intent-methodology</guid>
-    <description><![CDATA[ Agent 意图判断与连续执行方法论 一个好用的 Agent，不是靠”模型特别聪明”来猜用户意图，而是靠一条工程化流水线，把模糊问题逐步变成明确动作： 输入归一化 → 显式路由 → 上下文补全 → 能力约束 → 模型分工 → 工具事件循环 → 分层反馈 → 可恢复收尾 核心认知：不要让模型同时做 4 件事 很多系统失败，是因为把四件事全丢给一个模型：理解意图、决定是否调工具、选工具、组织回复。 正确做法是拆层： 层职责规则层处理高确定性的东西（命令路由）上下文层补足模型缺失的事实策略层收紧可行动作空间模型层只负责剩余的模糊决策执行层工具调用变成可追踪事件流反馈层过程和结果拆开表达 原则一：高置... ]]></description>
     <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
