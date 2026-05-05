@@ -6,17 +6,17 @@
       <description>最近的10条笔记 on Zyke</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>【扩展】设计报告</title>
+    <link>https://zy-tolearn.github.io/my-wiki-site/sources/export-design-report</link>
+    <guid>https://zy-tolearn.github.io/my-wiki-site/sources/export-design-report</guid>
+    <description><![CDATA[ 设计报告（export-design-report） 嘉立创 EDA 专业版 PCB 编辑器扩展，一键导出高速网络长度和焊盘坐标信息为 CSV 文件。 基本信息 扩展名： export-design-report 展示名称： 设计报告 版本： 1.0.13 平台： 嘉立创 EDA 专业版（PCB 编辑器） 引擎要求： eda ^2.2.34 功能概览 通过顶部菜单 报告 提供 7 个功能： 功能说明网络长度 — 网络导出所有网络名称及走线长度网络长度 — 网络类按网络类分组导出网络长度网络长度 — 差分对导出差分对正负网络长度网络长度 — 等长网络组导出等长网络组内各网络长度网络长度 — 焊盘... ]]></description>
+    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>LLM-Wiki</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
     <description><![CDATA[ LLM-Wiki 个人知识库。用 Obsidian 写，用 LLM 维护，用 Quartz 发布。 知识库最大的敌人不是”没时间读”，而是”读了不整理”。交叉引用、更新索引、标注矛盾——这些簿记工作交给 LLM，人只管读和想。 方法论 【方法论】个人方法论 — 大脑是节能、短视、单线程的，不对抗它，顺着它设计策略 【方法论】AI 与个人方法论的配合 — AI 补记忆、补并行，但替不了判断和行动 【方法论】个人助理 Agent 设计 — 口述即记录、启动助推、粗糙地开始 工程实践 【工程】Agent 意图判断与连续执行方法论 — 先用规则压缩任务空间，再让模型在受控局部做决策 搭建与工具 【指南... ]]></description>
-    <pubDate>Tue, 05 May 2026 21:39:26 GMT</pubDate>
-  </item><item>
-    <title>【扩展】设计报告</title>
-    <link>https://zy-tolearn.github.io/my-wiki-site/sources/export-design-report</link>
-    <guid>https://zy-tolearn.github.io/my-wiki-site/sources/export-design-report</guid>
-    <description><![CDATA[ 设计报告（export-design-report） 嘉立创 EDA 专业版 PCB 编辑器扩展，一键导出高速网络长度和焊盘坐标信息为 CSV 文件。 基本信息 扩展名： export-design-report 展示名称： 设计报告 版本： 1.0.13 平台： 嘉立创EDA专业版（PCB 编辑器） 引擎要求： eda ^2.2.34 功能概览 通过顶部菜单 报告 提供 7 个功能： 功能说明网络长度 — 网络导出所有网络名称及走线长度网络长度 — 网络类按网络类分组导出网络长度网络长度 — 差分对导出差分对正负网络长度网络长度 — 等长网络组导出等长网络组内各网络长度网络长度 — 焊盘对组... ]]></description>
-    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+    <pubDate>Tue, 05 May 2026 21:58:06 GMT</pubDate>
   </item><item>
     <title>【指南】Git 实战指南</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/git-ssh%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97</link>
