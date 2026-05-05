@@ -6,6 +6,12 @@
       <description>最近的10条笔记 on Zyke</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>【资料】Codex App 保姆级全攻略</title>
+    <link>https://zy-tolearn.github.io/my-wiki-site/sources/codex-app-guide</link>
+    <guid>https://zy-tolearn.github.io/my-wiki-site/sources/codex-app-guide</guid>
+    <description><![CDATA[ Codex App 保姆级全攻略 作者：技术爬爬虾 平台：Bilibili 视频：BV1Kk9kBAEJv 上传日期：2026-04-28 Codex App 最容易被低估的地方，是它看起来像一个“会写代码的聊天窗口”，但真正的定位更接近一个 AI 工作台：它能管理项目、并行跑任务、修改文件、启动服务、打开浏览器验证结果，还能通过插件、自动化、Skills 和 MCP 连接外部世界。 这篇教程的价值，不在于逐个按钮介绍，而在于把 Codex App 的能力串成了一套可复用工作流：小任务直接交给 Agent，复杂任务先计划，重复任务做自动化，稳定流程沉淀成 Skill，外部系统通过 MCP 接入... ]]></description>
+    <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>【扩展】设计报告</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/sources/export-design-report</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/sources/export-design-report</guid>
@@ -16,7 +22,7 @@
     <link>https://zy-tolearn.github.io/my-wiki-site/</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
     <description><![CDATA[ LLM-Wiki 个人知识库。用 Obsidian 写，用 LLM 维护，用 Quartz 发布。 知识库最大的敌人不是”没时间读”，而是”读了不整理”。交叉引用、更新索引、标注矛盾——这些簿记工作交给 LLM，人只管读和想。 方法论 【方法论】个人方法论 — 大脑是节能、短视、单线程的，不对抗它，顺着它设计策略 【方法论】AI 与个人方法论的配合 — AI 补记忆、补并行，但替不了判断和行动 【方法论】个人助理 Agent 设计 — 口述即记录、启动助推、粗糙地开始 工程实践 【工程】Agent 意图判断与连续执行方法论 — 先用规则压缩任务空间，再让模型在受控局部做决策 搭建与工具 【指南... ]]></description>
-    <pubDate>Tue, 05 May 2026 22:18:18 GMT</pubDate>
+    <pubDate>Tue, 05 May 2026 22:20:35 GMT</pubDate>
   </item><item>
     <title>【指南】Git 实战指南</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/git-ssh%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97</link>
