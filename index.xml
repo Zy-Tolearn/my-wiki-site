@@ -10,7 +10,7 @@
     <link>https://zy-tolearn.github.io/my-wiki-site/</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
     <description><![CDATA[ LLM-Wiki 个人知识库。用 Obsidian 写，用 LLM 维护，用 Quartz 发布。 知识库最大的敌人不是”没时间读”，而是”读了不整理”。交叉引用、更新索引、标注矛盾——这些簿记工作交给 LLM，人只管读和想。 方法论 【方法论】个人方法论 — 大脑是节能、短视、单线程的，不对抗它，顺着它设计策略 【方法论】AI 与个人方法论的配合 — AI 补记忆、补并行，但替不了判断和行动 【方法论】个人助理 Agent 设计 — 口述即记录、启动助推、粗糙地开始 工程实践 【工程】Agent 意图判断与连续执行方法论 — 先用规则压缩任务空间，再让模型在受控局部做决策 搭建与工具 【指南... ]]></description>
-    <pubDate>Tue, 05 May 2026 13:15:01 GMT</pubDate>
+    <pubDate>Tue, 05 May 2026 13:26:13 GMT</pubDate>
   </item><item>
     <title>【扩展】设计报告</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/sources/export-design-report</link>
