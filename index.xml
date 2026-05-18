@@ -6,7 +6,13 @@
       <description>最近的10条笔记 on Zyke</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>【指南】Codex 首次对话超时的 Clash 代理修复</title>
+    <title>LLM-Wiki</title>
+    <link>https://zy-tolearn.github.io/my-wiki-site/</link>
+    <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
+    <description><![CDATA[ LLM-Wiki 个人知识库。用 Obsidian 写，用 LLM 维护，用 Quartz 发布。 知识库最大的敌人不是”没时间读”，而是”读了不整理”。交叉引用、更新索引、标注矛盾——这些簿记工作交给 LLM，人只管读和想。 方法论 【方法论】个人方法论 — 大脑是节能、短视、单线程的，不对抗它，顺着它设计策略 【方法论】AI 与个人方法论的配合 — AI 补记忆、补并行，但替不了判断和行动 【方法论】个人助理 Agent 设计 — 口述即记录、启动助推、粗糙地开始 工程实践 【工程】Agent 意图判断与连续执行方法论 — 先用规则压缩任务空间，再让模型在受控局部做决策 搭建与工具 【指南... ]]></description>
+    <pubDate>Mon, 18 May 2026 02:30:55 GMT</pubDate>
+  </item><item>
+    <title>【指南】修复 Codex 首次对话超时</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/Codex-%E9%A6%96%E6%AC%A1%E5%AF%B9%E8%AF%9D%E8%B6%85%E6%97%B6</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/Codex-%E9%A6%96%E6%AC%A1%E5%AF%B9%E8%AF%9D%E8%B6%85%E6%97%B6</guid>
     <description><![CDATA[ Codex 首次对话超时的 Clash 代理修复 最近遇到一个很具体的问题：Codex 每次第一次对话都会访问超时，然后反复出现 reconnecting。 典型报错长这样： Stream error Reconnecting.. ]]></description>
@@ -15,7 +21,7 @@
     <title>【资料】Codex App 保姆级全攻略</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/sources/codex-app-guide</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/sources/codex-app-guide</guid>
-    <description><![CDATA[ Codex App 保姆级全攻略 作者：技术爬爬虾 平台：Bilibili 视频：BV1Kk9kBAEJv 上传日期：2026-04-28 Codex App 最容易被低估的地方，是它看起来像一个“会写代码的聊天窗口”，但真正的定位更接近一个 AI 工作台：它能管理项目、并行跑任务、修改文件、启动服务、打开浏览器验证结果，还能通过插件、自动化、Skills 和 MCP 连接外部世界。 这篇教程的价值，不在于逐个按钮介绍，而在于把 Codex App 的能力串成了一套可复用工作流：小任务直接交给 Agent，复杂任务先计划，重复任务做自动化，稳定流程沉淀成 Skill，外部系统通过 MCP 接入... ]]></description>
+    <description><![CDATA[ Codex App 保姆级全攻略 作者：技术爬爬虾 平台：Bilibili 视频：BV1Kk9kBAEJv 上传日期：2026-04-28 Codex App 看起来像一个“会写代码的聊天窗口”，但实际定位更接近一个 AI 工作台：能管理项目、并行跑任务、修改文件、启动服务、打开浏览器验证结果，还能通过插件、自动化、Skills 和 MCP 连接外部世界。 这篇教程把 Codex App 的能力串成了一套可复用工作流：小任务直接交给 Agent，复杂任务先计划，重复任务做自动化，稳定流程沉淀成 Skill，外部系统通过 MCP 接入。 一、先把 Codex 当成项目工作台 Codex App ... ]]></description>
     <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>【扩展】设计报告</title>
@@ -24,11 +30,11 @@
     <description><![CDATA[ 设计报告（export-design-report） 嘉立创 EDA 专业版 PCB 编辑器扩展，一键导出高速网络长度和焊盘坐标信息为 CSV 文件。 基本信息 扩展名： export-design-report 展示名称： 设计报告 版本： 1.0.13 平台： 嘉立创 EDA 专业版（PCB 编辑器） 引擎要求： eda ^2.2.34 功能概览 通过顶部菜单 报告 提供 7 个功能： 功能说明网络长度 — 网络导出所有网络名称及走线长度网络长度 — 网络类按网络类分组导出网络长度网络长度 — 差分对导出差分对正负网络长度网络长度 — 等长网络组导出等长网络组内各网络长度网络长度 — 焊盘... ]]></description>
     <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
   </item><item>
-    <title>LLM-Wiki</title>
-    <link>https://zy-tolearn.github.io/my-wiki-site/</link>
-    <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
-    <description><![CDATA[ LLM-Wiki 个人知识库。用 Obsidian 写，用 LLM 维护，用 Quartz 发布。 知识库最大的敌人不是”没时间读”，而是”读了不整理”。交叉引用、更新索引、标注矛盾——这些簿记工作交给 LLM，人只管读和想。 方法论 【方法论】个人方法论 — 大脑是节能、短视、单线程的，不对抗它，顺着它设计策略 【方法论】AI 与个人方法论的配合 — AI 补记忆、补并行，但替不了判断和行动 【方法论】个人助理 Agent 设计 — 口述即记录、启动助推、粗糙地开始 工程实践 【工程】Agent 意图判断与连续执行方法论 — 先用规则压缩任务空间，再让模型在受控局部做决策 搭建与工具 【指南... ]]></description>
-    <pubDate>Tue, 05 May 2026 23:41:20 GMT</pubDate>
+    <title>【方法论】AI 网页样式设计</title>
+    <link>https://zy-tolearn.github.io/my-wiki-site/analyses/AI%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E8%AE%BA</link>
+    <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/AI%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E6%96%B9%E6%B3%95%E8%AE%BA</guid>
+    <description><![CDATA[ AI 设计工程方法论 从 web-design-engineer 技能中提取的第一性原理。这不是一份”怎么写前端”的指南，而是一套回答”AI 作为创造者时，设计质量如何保证”的方法论。 核心命题 标准是”惊艳”，不是”能用”。每个像素都有意图，每个交互都经过推敲。 AI 做出”看起来完整但毫无灵魂”的东西，比做不出来更危险。功能完备 ≠ 设计合格。 五条第一性原理 1. ]]></description>
+    <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>【指南】Git 实战指南</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/git-ssh%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97</link>
@@ -39,13 +45,13 @@
     <title>【方法论】个人助理 Agent 设计</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/%E4%B8%AA%E4%BA%BA%E5%8A%A9%E7%90%86Agent%E8%AE%BE%E8%AE%A1</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/%E4%B8%AA%E4%BA%BA%E5%8A%A9%E7%90%86Agent%E8%AE%BE%E8%AE%A1</guid>
-    <description><![CDATA[ 个人助理 Agent 设计 基于 个人方法论 和 AI与个人方法论的配合 的分析，设计一个真正匹配你认知模型的个人助理 Agent。 一、最佳实践 实践 1：口述即记录 原则依据：有记录即有能力 + 精力有限 你不应该花时间”写笔记”。最佳实践是： 随时口述想法、进展、感受，哪怕一句话 Agent 负责整理成结构化记录，归档到正确位置 你永远不需要想”这个该记在哪” 反模式：自己打开笔记软件，纠结格式和分类。这消耗的精力应该花在做事上。 实践 2：启动助推 原则依据：0.1 &gt; 0 + 粗糙地开始 + 最简单的方法是模仿 面对新任务时，不要自己从零开始。最佳实践是： 告诉 Agent 你... ]]></description>
+    <description><![CDATA[ 个人助理 Agent 设计 基于 个人方法论 和 AI与个人方法论的配合 的分析，设计一个真正匹配你认知模型的个人助理 Agent。 一、最佳实践 实践 1：口述即记录 原则依据：有记录即有能力 + 精力有限 不用花时间”写笔记”。做法： 随时口述想法、进展、感受，哪怕一句话 Agent 负责整理成结构化记录，归档到正确位置 你永远不需要想”这个该记在哪” 反例：自己打开笔记软件，纠结格式和分类。这消耗的精力应该花在做事上。 实践 2：启动助推 原则依据：0.1 &gt; 0 + 粗糙地开始 + 最简单的方法是模仿 面对新任务时，不要自己从零开始。做法： 告诉 Agent 你要做什么 Agen... ]]></description>
     <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>【方法论】AI 与个人方法论的配合</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/AI%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%96%B9%E6%B3%95%E8%AE%BA%E7%9A%84%E9%85%8D%E5%90%88</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/AI%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%96%B9%E6%B3%95%E8%AE%BA%E7%9A%84%E9%85%8D%E5%90%88</guid>
-    <description><![CDATA[ AI 与个人方法论的配合 基于 个人方法论 的三层框架，逐层分析 AI 能弥补什么、不能替代什么、以及最佳配合方式。 一、认知层：AI 弥补的是硬件缺陷，不是替代大脑 你的方法论识别了三个大脑硬件限制。AI 恰好能对冲其中两个半： “只记得住最新的” → AI 是不会遗忘的外部记忆 这是 AI 最直接的价值。大脑的记忆衰减是生理事实，而 AI + 知识库的组合可以做到： 全量记忆：你说过的、记录过的，AI 都能检索到，不存在”忘了上个月看的那篇文章” 关联记忆：你说”没有联想的记忆无效”——AI 天然擅长在不同记录之间建立联想，这正是 LLM-Wiki 的双链在做的事 即时唤醒：你不需要”想起... ]]></description>
+    <description><![CDATA[ AI 与个人方法论的配合 基于 个人方法论 的三层框架，逐层分析 AI 能弥补什么、不能替代什么、怎么配合。 一、认知层：AI 弥补的是硬件缺陷，不是替代大脑 方法论识别了三个大脑硬件限制，AI 能对冲其中两个半： “只记得住最新的” → AI 是不会遗忘的外部记忆 这是 AI 最直接的价值。大脑的记忆衰减是生理事实，AI + 知识库的组合可以做到： 全量记忆：你说过的、记录过的，AI 都能检索到，不存在”忘了上个月看的那篇文章” 关联记忆：你说”没有联想的记忆无效”——AI 在不同记录之间建立联想，这正是 LLM-Wiki 双链在做的事 即时唤醒：不需要”想起来”某个知识，只需要问，AI 帮... ]]></description>
     <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
   </item><item>
     <title>【概念】个人方法论</title>
@@ -58,12 +64,6 @@
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/llm-wiki%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/llm-wiki%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B</guid>
     <description><![CDATA[ LLM-Wiki 搭建流程 基于两篇文章搭建的完整流程记录，照着做可以从零复现。 参考资料： Karpathy 的 LLM-Wiki Gist Clippings/Karpathy 开源了 Agent + Obsidian 个人知识库（知乎解读） Clippings/换了N个笔记工具，最终我还是选择了 Obsidian（Obsidian 配置教程） 第一步：创建 Git 仓库 GitHub 上创建一个 private 仓库 用 GitHub Desktop 克隆到本地（如 D:\LLM-Wiki） 在根目录创建 .gitignore，排除 Obsidian 的工作区文件： .obsidian/... ]]></description>
-    <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>【指南】LLM-Wiki 个人博客</title>
-    <link>https://zy-tolearn.github.io/my-wiki-site/analyses/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B</link>
-    <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B</guid>
-    <description><![CDATA[ 博客发布流程 基于 Quartz 将 wiki 中的部分文章发布为静态博客，私有仓库存源码，公开仓库只暴露构建后的 HTML。 架构 LLM-Wiki（私有仓库） ├── wiki/ ← 内容源 ├── blog/ ← Quartz 引擎 │ ├── content/ ← Junction 链接到 wiki/ │ ├── quartz.config.ts │ └── public/ ← 构建产物（gitignore） └── .github/workflows/deploy-wiki.yml my-wiki-site（公开仓库） └── gh-pages 分支 ← 只有 HTML/CSS/JS... ]]></description>
     <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
