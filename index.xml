@@ -6,17 +6,17 @@
       <description>最近的10条笔记 on Zyke</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>LLM-Wiki</title>
+    <link>https://zy-tolearn.github.io/my-wiki-site/</link>
+    <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
+    <description><![CDATA[ LLM-Wiki 个人知识库。用 Obsidian 写，用 LLM 维护，用 Quartz 发布。 知识库最大的敌人不是”没时间读”，而是”读了不整理”。交叉引用、更新索引、标注矛盾——这些簿记工作交给 LLM，人只管读和想。 方法论 【方法论】个人方法论 — 大脑是节能、短视、单线程的，不对抗它，顺着它设计策略 【方法论】AI 与个人方法论的配合 — AI 补记忆、补并行，但替不了判断和行动 【方法论】个人助理 Agent 设计 — 口述即记录、启动助推、粗糙地开始 工程实践 【工程】Agent 意图判断与连续执行方法论 — 先用规则压缩任务空间，再让模型在受控局部做决策 搭建与工具 【指南... ]]></description>
+    <pubDate>Thu, 04 Jun 2026 03:26:16 GMT</pubDate>
+  </item><item>
     <title>【指南】Codex 同步不同 API 下的对话记录</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/Codex-%E5%90%8C%E6%AD%A5%E4%B8%8D%E5%90%8C-API-%E4%B8%8B%E7%9A%84%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95</link>
     <guid>https://zy-tolearn.github.io/my-wiki-site/analyses/Codex-%E5%90%8C%E6%AD%A5%E4%B8%8D%E5%90%8C-API-%E4%B8%8B%E7%9A%84%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95</guid>
     <description><![CDATA[ Codex 同步不同 API 下的对话记录 Codex 切换到自定义 API provider 后，一个常见现象是：原来的对话记录好像突然没了。 先别急着判断是会话丢失。很多时候，真实的会话文件还在本地，只是左侧列表没有把它们显示出来。 这类问题的关键不是“文件还在不在”，而是三层状态是否对齐： 会话文件 → 线程索引 → 当前 provider / 工作区过滤条件 如果你从 OpenAI 账号直登切到第三方兼容 API，或者换过工作区路径，Codex 可能仍然保存着旧对话，但当前列表读不到。 一、先理解 Codex 的会话列表 Codex 左侧会话列表不是简单地扫描 .codex/sessi... ]]></description>
     <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>LLM-Wiki</title>
-    <link>https://zy-tolearn.github.io/my-wiki-site/</link>
-    <guid>https://zy-tolearn.github.io/my-wiki-site/</guid>
-    <description><![CDATA[ LLM-Wiki 个人知识库。用 Obsidian 写，用 LLM 维护，用 Quartz 发布。 知识库最大的敌人不是”没时间读”，而是”读了不整理”。交叉引用、更新索引、标注矛盾——这些簿记工作交给 LLM，人只管读和想。 方法论 【方法论】个人方法论 — 大脑是节能、短视、单线程的，不对抗它，顺着它设计策略 【方法论】AI 与个人方法论的配合 — AI 补记忆、补并行，但替不了判断和行动 【方法论】个人助理 Agent 设计 — 口述即记录、启动助推、粗糙地开始 工程实践 【工程】Agent 意图判断与连续执行方法论 — 先用规则压缩任务空间，再让模型在受控局部做决策 搭建与工具 【指南... ]]></description>
-    <pubDate>Sun, 31 May 2026 20:09:53 GMT</pubDate>
   </item><item>
     <title>【指南】修复 Codex 首次对话超时</title>
     <link>https://zy-tolearn.github.io/my-wiki-site/analyses/Codex-%E9%A6%96%E6%AC%A1%E5%AF%B9%E8%AF%9D%E8%B6%85%E6%97%B6</link>
